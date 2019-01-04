@@ -22,7 +22,7 @@ class AddTodo extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className='todo-adicionar'>
         <input
           onChange={e => this.updateInput(e.target.value)}
           value={this.state.input}
